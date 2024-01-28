@@ -1,8 +1,1 @@
-[
-  { "title": "Test Title", "text": "Test text" },
-  {
-    "title": "Double check code",
-    "text": "double check code and refactor as needed. ",
-    "id": "24c4d2d6-f6a4-4cd7-a94e-12ecb9b2e2c9"
-  }
-]
+[{"title":"Test Title","text":"Test text"},{"title":"Double check code","text":"double check code and refactor as needed. ","id":"24c4d2d6-f6a4-4cd7-a94e-12ecb9b2e2c9"},{"title":"Necessary Code for Express","text":"```\nconst express = require('express');\n\nconst PORT = 3001;\n\nconst app = express();\n\n//require path\nconst reviews = require('./db/reviews');\n\n.....\n\napp.listen(PORT, () =>\nconsole.log(`Express server listening on port ${PORT}!`)\n);","id":"3e57fcb7-fab7-43bc-8666-8f5dc9968af6"},{"title":"Heroku Steps","text":"**Heroku steps:**  \n`git add .`  \n`git commit -m <message>`  \n`git push origin main``heroku login`  \n`heroku create <name>`  \n`git remote -v`  \n`git push heroku main`  \n`heroku open`\n**for issues:**  \n`heroku logs --tail`","id":"34788ac2-8e76-4aa2-864d-ed86e8e5ea30"}]
