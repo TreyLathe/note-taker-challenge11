@@ -23,11 +23,11 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ## RELEVANT LINKS:
 - Repository: https://github.com/TreyLathe/note-taker-challenge11 
 
-- Deployed Site: 
+- Deployed Site:  https://latenotetaker-086eda668cc9.herokuapp.com/ 
 
 ## SCREENSHOTS &&/|| SCREENCASTS:
 ScreenShot: 
-
+[Screenshot of deployed app](./miscfiles/Screenshot%202024-01-29%20at%202.50.32 PM.png)
 
 ## USAGE && COMMENTS:
 
@@ -65,7 +65,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 -  UI changes to notes to allow for larger windows for note text and better positioning of save and clear buttons
 -  Add functionality to edit existing notes
--  Add functionality to delete existing notes
+-  Add functionality to organize notes by category and/or tags
 -  Add Jest tests for current and future features
 
 ## TESTS
