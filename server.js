@@ -53,6 +53,19 @@ app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
+// API endpoint to delete a note
+app.delete("/api/notes/:id", (req, res) => {
+    const noteId = req.params.id;
+    notes = notes.filter(note => note.id !== noteId);
+    fs.writeFile(dbFilePath, JSON.stringify(notes), (err) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: "Internal Server Error" });
+        }
+        res.json({ message: "Note deleted" });
+    });
+});
+
 app.listen(PORT, () => {
     console.log(`App listening on PORT ${PORT}`);
 });
